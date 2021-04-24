@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="15dp"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/name_textView_display_CALLLOG"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Call Name"/>
+
+        <TextView
+            android:id="@+id/PhoneNo_textView_display_CALLLOG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Phone Number"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/date_textView_display_CALLLOG"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Call Date"/>
+        <TextView
+            android:id="@+id/duration_textView_display_CALLLOG"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Call Duration"/>
+        <TextView
+            android:id="@+id/time_textView_display_CALLLOG"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Call Time"/>
+        <TextView
+            android:id="@+id/callType_textView_display_CALLLOG"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Call Type"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

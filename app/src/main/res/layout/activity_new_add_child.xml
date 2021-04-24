@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewChildActivity">
+
+    <TextView
+        android:textColor="@color/black"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poiretregular"
+        android:id="@+id/name_tv_addChild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="15dp"/>
+    <EditText
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/name_et_addChild"
+        android:layout_below="@id/name_tv_addChild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:maxLength="20"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/input_round_bg"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:textColor="@color/black"
+        android:layout_below="@id/name_et_addChild"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poiretregular"
+        android:id="@+id/age_tv_addChild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textSize="15dp"/>
+    <EditText
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/age_et_addChild"
+        android:layout_below="@id/age_tv_addChild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:maxLength="20"
+        android:inputType="number"
+        android:background="@drawable/input_round_bg"
+        />
+
+
+    <RadioGroup
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal"
+        android:id="@+id/Gender_radioGroup_addChild"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/age_et_addChild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender  :"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/poiretregular"
+            android:textColor="@color/black"/>
+        <RadioButton
+            android:onClick="CheckButton"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poiretregular"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/male_radioButton_addChild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:checked="true"/>
+        <RadioButton
+            android:onClick="CheckButton"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poiretregular"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/female_radioButton_addChild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/Submit_btn_AddChild"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Gender_radioGroup_addChild"
+        android:background="@drawable/button_round_bg"
+        android:text="Submit"
+        android:textColor="@color/white"/>
+
+
+</RelativeLayout>

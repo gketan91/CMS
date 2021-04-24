@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "933820577571",
+    "project_id": "cmsdb-ffe00",
+    "storage_bucket": "cmsdb-ffe00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:933820577571:android:1a2e6d032f6810155dfe96",
+        "android_client_info": {
+          "package_name": "com.ketan_studio.example.cms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "933820577571-nd5dpkcib5b6a0uk98n1vu6i81qvp0rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJzejHDKIZ8gAJbwwkFzF8cXGxI_3MDpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "933820577571-nd5dpkcib5b6a0uk98n1vu6i81qvp0rn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
